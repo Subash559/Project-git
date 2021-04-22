@@ -5,13 +5,17 @@ class Program
 {
     static void Main(string[] args)
     {
-        int firstNumber,secondNumber,result;
-        Console.WriteLine("Enter FirstNumber :");
-        firstNumber = Convert.ToInt32(Console.ReadLine());
-        Console.WriteLine("Enter SecondNumber :");
-        secondNumber = Convert.ToInt32(Console.ReadLine());
-        result= firstNumber + secondNumber;
-        Console.WriteLine("Sum of two numbers is : "+result);
-        Console.ReadLine();
+        //Console.WriteLine("Hello, World!"+"subash");
+        //Console.Write("Hello");
+        //Console.Write("Earth");
+        //Console.ReadLine();
+        
+        int a=5;
+        int b=9;
+        Console.WriteLine("Sum of "+a+"+"+b+"="+ (a+b));
+        Console.WriteLine("Sub of "+a+"+"+b+"="+ (a-b));
+        Console.WriteLine("Mul of "+a+"+"+b+"="+ (a*b));
+        Console.WriteLine("Div of "+a+"+"+b+"="+ (a/b));
+        Console.WriteLine("equality of "+a+"+"+b+"="+ (a==b));
     }
 }
